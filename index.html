@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Forms</title>
 </head>
@@ -11,21 +12,33 @@
         <div class="img">
             <img src="./1706951678071.jpg">
         </div>
-        <div class="form">
-            <form method="post">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name" minlength="3" required>
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="last_name" minlength="2" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
-                <label for="confirm_password">Confirm Password</label>
-                <input type="password" id="confirm_password" name="confirm_password">
-            </form>
+        <div class="right-side-content">
+            <div class="header">
+                <h2>Form Testing</h2>
+                <p>This is not a real online service! You know coding be hard but this is life so o.O. Sign up now to get started.</p>
+            </div>
+            <div class="form">
+                <form method="post">
+                    <div class="filling">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name" minlength="3" required>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" minlength="2" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" id="phone_number" name="phone_number">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                    <div class="submition">
+                        <button type="button">Sign Up</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
