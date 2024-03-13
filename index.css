@@ -1,9 +1,22 @@
-.content{
-    display: flex;
+body {
+    background-color: #1d2b3a;    ;
+    color: white;
 }
 
-.img img{
-    width: 100%;
+.content{
+    display: flex;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.content img{
+    max-width: 48%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.right-side-content {
+    margin-left: 8%;
 }
 
 .filling{
@@ -13,7 +26,6 @@
 }
 
 .header {
-    background-color: rgb(189, 189, 189);
     width: 100%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
