@@ -16,20 +16,35 @@
                 <p>This is not a real online service! You know coding be hard but this is life so o.O. Sign up now to get started.</p>
             </div>
             <div class="form">
-                <form method="post">
+                <form action="" method="post">
                     <div class="filling">
-                        <label for="first_name">First Name:</label>
-                        <input type="text" id="first_name" name="first_name" minlength="3" required>
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" id="last_name" name="last_name" minlength="2" required>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email">
-                        <label for="phone_number">Phone Number:</label>
-                        <input type="tel" id="phone_number" name="phone_number">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password">
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
+                        <h2>
+                            Let's GOOOO!!!
+                        </h2>
+                        <div class="user">
+                            <label for="first_name">First Name:
+                                <input type="text" id="first_name" name="first_name" minlength="1" placeholder="Jackson" required>
+                            </label>
+                            <label for="last_name">Last Name:
+                                <input type="text" id="last_name" name="last_name" placeholder="Tan" minlength="1" required>
+                            </label>
+                        </div>
+                        <div class="user-info">
+                            <label for="email">Email:
+                                <input type="email" id="email" name="email" placeholder="jacktan@email.com">
+                            </label>
+                            <label for="phone_number">Phone Number:
+                                <input type="tel" id="phone_number" name="phone_number" placeholder="678-876-4321" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            </label>
+                        </div>
+                        <div class="user-password">
+                            <label for="password">Password:
+                                <input type="password" id="password" placeholder="password" name="password">
+                            </label>
+                            <label for="confirm_password">Confirm Password
+                                <input type="password" id="confirm_password" placeholder="password" name="confirm_password" minlength="6">
+                            </label>
+                        </div>
                     </div>
                     <div class="submition">
                         <button type="button">Sign Up</button>
